@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function course(code,title,creditHours){
+            this.code=code;
+            this.title=title;
+            this.creditHours=creditHours;
+        }
+        let course1=new course(prompt("enter course1:"),prompt("enter title1:"),prompt("enter creditHours1:"))
+        let course2=new course(prompt("enter course2:"),prompt("enter title2:"),prompt("enter creditHours2:"))
+        let course3=new course(prompt("enter course3:"),prompt("enter title3:"),prompt("enter creditHours:"))
+        console.log(course1)
+        console.log(course2)
+        console.log(course3)
+    </script>
+</body>
+</html>
